@@ -90,9 +90,11 @@ def train(model, optimizer, loss_fn, train_loader, val_loader, epochs=20, device
         print('Epoch: {}, Training Loss: {:.2f}, Validation Loss: {:.2f}, accuracy = {:.2f}'.format(epoch, training_loss, valid_loss, num_correct / num_examples))
         
 #%% Training
+
 train(simplenet, optimizer, torch.nn.CrossEntropyLoss(), train_data_loader, val_data_loader)
 
 #%% Testing
+
 labels = ['cat','fish']
 path = "./test/cat/100970828_a2e6ade482.jpg"
 img = Image.open(path)
