@@ -1,4 +1,4 @@
-# PyTorch For Deep Learning Book Applications
+# PyTorch For Deep Learning Book Codes
 
 I wrote codes from the book with up-to-date PyTorch. Also, I have added some explanation marks near the codes.
 Currently, I'm not working on text or sound data. So if you want to add other chapters from the book, you are welcome.
